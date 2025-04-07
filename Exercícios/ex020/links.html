@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: aquamarine;
+        }
+
+        .especial::after {
+            content:  '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial::before {
+            content: '☣ ';
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(216, 18, 18);
+            font-size: 2em;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://g1.globo.com/" target="_blank">Site do G1.</a></li>
+        <li><a href="https://www.agazeta.com.br/" class="especial" target="_blank">Site do gazeta online.</a></li>
+        <li><a href="https://www.uol.com.br/" target="_blank">Site do uol.</a></li>
+    </ul>
+</body>
