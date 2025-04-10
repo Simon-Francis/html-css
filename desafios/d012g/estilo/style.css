@@ -30,7 +30,6 @@ header > p {
 }
 
 
-
 a {
     text-decoration: none;
     color: white;
@@ -42,11 +41,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
 
 
 section {
@@ -82,4 +76,5 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
