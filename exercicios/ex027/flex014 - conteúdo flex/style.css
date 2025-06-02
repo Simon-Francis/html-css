@@ -53,13 +53,12 @@ article > div.text {
 
 article > div.media {
     flex: 1 0 400px;
-
    
 }
 
 div.media > img {
     display: block;
-    margin: auto;
+    margin: 10px 0px 10px 23px;
 }
 
 div.media > iframe {
