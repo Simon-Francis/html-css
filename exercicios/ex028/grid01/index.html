@@ -9,10 +9,12 @@
     
         div.container {
             border: 5px solid blue;
-            height: 300px;
+            height: 400px;
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: 100px 100px 100px;
+            grid-template:  repeat(3, 100px) / repeat(3, auto);
+            place-items: stretch stretch;
+            place-content: normal normal;
+             
             
     }
 
